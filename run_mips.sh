@@ -28,4 +28,4 @@ fi
 
 #kill "$(ps aux | grep debian.*.mips | awk '{print $2}' | sed -n '1p')"
 echo -e '\nuse -> kill "'"\$(ps aux | grep debian.*.mips | awk '{print \$2}' | sed -n '1p'"')"\n'
-echo -e '\nuse -> ssh -P 2222 root@127.0.0.1\n'
+echo -e '\nuse -> ssh -p 2222 root@127.0.0.1\n'
